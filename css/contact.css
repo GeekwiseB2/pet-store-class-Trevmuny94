@@ -1,0 +1,79 @@
+/*===============FONTS==============*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+/*============UNIVERSALS============*/
+p{
+  font-size: 16px;
+}
+/*============HEADER================*/
+header{
+  margin-bottom: 20px;
+}
+
+#header-logo{
+  width: 90px;
+}
+
+#logo-style{
+  font-family: 'Satisfy', cursive;
+  color: #ff827b;
+  margin-top:20px;
+}
+
+.flex-wrapper{
+  display: flex;
+  align-items: flex-end;
+}
+
+nav a{
+  color: #61aee6;
+  font-size: 20px;
+}
+
+.nav-tabs{
+  border:none;
+}
+/*=============DR=INFO==============*/
+#dr-info img{
+  height: 175px;
+}
+
+#dr-info p{
+  font-size: 15px;
+}
+
+/*==============MAP=================*/
+iframe{
+  height: 375px;
+  width: 100%;
+}
+
+/*==================FOOTER==============*/
+footer{
+  background-color: #231f20;
+  padding-top: 20px;
+  margin-top: 80px;
+}
+
+footer a, footer{
+  text-decoration: none;
+  color: #bfc0c1;
+}
+
+footer a:hover, footer i:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.right-border{
+  border-right: 1px solid #333;
+}
+
+#footer-logo{
+  height: 110px;
+}
+
+footer .text-center p{
+  color: #333;
+}
